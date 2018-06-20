@@ -26,4 +26,9 @@ public class Laender
     {
         return punkte;
     }
+    
+   public String gibName()
+   {
+       return name;
+    }
 }
