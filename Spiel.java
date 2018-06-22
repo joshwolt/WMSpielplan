@@ -5,7 +5,7 @@
  * @author (Ihr Name) 
  * @version (eine Versionsnummer oder ein Datum)
  */
-public class Spie
+public class Spiel
 {
     // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
     
@@ -13,7 +13,7 @@ public class Spie
     /**
      * Konstruktor für Objekte der Klasse Spie
      */
-    public Spie()
+    public Spiel()
     {
         // Instanzvariable initialisieren
         
