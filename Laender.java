@@ -37,9 +37,9 @@ public class Laender
         return tore;
     }
     
-    public void addPunkte()
+    public void addPunkte(int punkte)
     {
-        
+        this.punkte += punkte;
     }
     
     public void addTore(int tore)
