@@ -56,4 +56,6 @@ public class Spiel
     {
         return gasttore;
     }
+    
+    
 }

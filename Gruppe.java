@@ -16,7 +16,7 @@ public class Gruppe
     public Gruppe()
     {
         // Instanzvariable initialisieren
-        mannschaftsListe= new ArrayList<Mannschaft>();
+        mannschaftsListe = new ArrayList<Mannschaft>();
         
     }
 
@@ -30,5 +30,29 @@ public class Gruppe
     {
         // tragen Sie hier den Code ein
         mannschaftsListe.add(mannschaft);
+    }
+    
+    public int gibPunkte()
+    {
+        int punkte=0;
+        for(Spiel spiel : spiele)
+        {
+            if(spiel.gibHeimtore()<spiel.gibGasttore())
+            {
+                punkte += 0;
+            }
+            else if(spiel.gibHeimtore()>spiel.gibGasttore()) 
+            {
+                punkte += 3;
+            }
+            else
+            {
+                punkte += 1;
+            }
+        }
+        
+        
+        
+        return punkte;
     }
 }
