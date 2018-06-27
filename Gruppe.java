@@ -28,9 +28,9 @@ public class Gruppe
      * @param  y    ein Beispielparameter für eine Methode
      * @return        die Summe aus x und y
      */
-    public void addToGroup( Mannschaft land )
+    public void addToGroup( Mannschaft mannschaft )
     {
         // tragen Sie hier den Code ein
-        gruppe.add(land);
+        gruppe.add(mannschaft);
     }
 }
