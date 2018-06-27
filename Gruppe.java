@@ -12,9 +12,7 @@ public class Gruppe
     private ArrayList<Spiel> spiele;
     
 
-    /**
-     * Konstruktor für Objekte der Klasse Gruppen
-     */
+    
     public Gruppe()
     {
         // Instanzvariable initialisieren

@@ -11,6 +11,7 @@ public class Spiel
     private Mannschaft gastmannschaft;
     private String datum;
     private String ort;
+    private String zeit;
     private int heimtore;
     private int gasttore;
 
@@ -40,6 +41,10 @@ public class Spiel
     public String gibOrt()
     {
         return ort;
+    }
+    public String gibZeit()
+    {
+        return zeit;
     }
     
     public int gibHeimtore()
