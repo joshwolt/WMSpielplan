@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 /**
  * Beschreiben Sie hier die Klasse Gruppen.
- * 
+ * 02 41 – 16 88 - 30 21
  * @author (Ihr Name) 
  * @version (eine Versionsnummer oder ein Datum)
  */
@@ -45,7 +45,7 @@ public class Gruppe
             {
                 punkte += 3;
             }
-            else
+            else if(spiel.gibHeimtore()==spiel.gibGasttore()) 
             {
                 punkte += 1;
             }
