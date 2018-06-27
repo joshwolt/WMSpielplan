@@ -7,7 +7,6 @@
  */
 public class Mannschaft
 {
-    // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
     private String name;
     
 

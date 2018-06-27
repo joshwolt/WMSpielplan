@@ -7,16 +7,48 @@
  */
 public class Spiel
 {
-    // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
-    
+    private Mannschaft heimmannschaft;
+    private Mannschaft gastmannschaft;
+    private String datum;
+    private String ort;
+    private int heimtore;
+    private int gasttore;
 
     /**
      * Konstruktor für Objekte der Klasse Spie
      */
     public Spiel()
     {
-        // Instanzvariable initialisieren
-        
+       
+    }
+    
+    public Mannschaft gibHeimmannschaft()
+    {
+        return heimmannschaft;
     }
 
+    public Mannschaft gibGastmannschaft()
+    {
+        return gastmannschaft;
+    }
+    
+    public String gibDatum()
+    {
+        return datum;
+    }
+    
+    public String gibOrt()
+    {
+        return ort;
+    }
+    
+    public int gibHeimtore()
+    {
+        return heimtore;
+    }
+    
+    public int gibGasttore()
+    {
+        return gasttore;
+    }
 }
