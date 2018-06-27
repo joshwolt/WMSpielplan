@@ -5,19 +5,20 @@ import java.util.ArrayList;
  * @author (Ihr Name) 
  * @version (eine Versionsnummer oder ein Datum)
  */
-public class Gruppen
+public class Gruppe
 {
     // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
-    private ArrayList<Laender> gruppe;
+    private ArrayList<Mannschaft> gruppe;
+    private ArrayList<Spiel> spiele;
     
 
     /**
      * Konstruktor für Objekte der Klasse Gruppen
      */
-    public Gruppen()
+    public Gruppe()
     {
         // Instanzvariable initialisieren
-        gruppe= new ArrayList<Laender>();
+        gruppe= new ArrayList<Mannschaft>();
         
     }
 
@@ -27,7 +28,7 @@ public class Gruppen
      * @param  y    ein Beispielparameter für eine Methode
      * @return        die Summe aus x und y
      */
-    public void addToGroup( Laender land )
+    public void addToGroup( Mannschaft land )
     {
         // tragen Sie hier den Code ein
         gruppe.add(land);
