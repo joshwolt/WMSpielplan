@@ -18,6 +18,11 @@ public class Spielplan
         // Instanzvariable initialisieren
         gruppe= new ArrayList<Gruppe>();
     }
+    
+    public void fügeGruppeHinzu(Gruppe gruppe)
+    {
+        this.gruppe.add(gruppe);
+    }
 
     
 }

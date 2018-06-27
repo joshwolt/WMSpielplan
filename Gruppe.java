@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class Gruppe
 {
     // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
-    private ArrayList<Mannschaft> gruppe;
+    private ArrayList<Mannschaft> mannschaftsListe;
     private ArrayList<Spiel> spiele;
     
 
@@ -18,7 +18,7 @@ public class Gruppe
     public Gruppe()
     {
         // Instanzvariable initialisieren
-        gruppe= new ArrayList<Mannschaft>();
+        mannschaftsListe= new ArrayList<Mannschaft>();
         
     }
 
@@ -31,6 +31,6 @@ public class Gruppe
     public void addToGroup( Mannschaft mannschaft )
     {
         // tragen Sie hier den Code ein
-        gruppe.add(mannschaft);
+        mannschaftsListe.add(mannschaft);
     }
 }
